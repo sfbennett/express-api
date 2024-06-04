@@ -2,7 +2,7 @@
 
 A simple RESTful API that I created with Express for managing data from three different end points.
 
-1. Hello, world! and other responses (to test the app's initial functionality)
+1. Hello, World! and other responses (to test the app's initial functionality)
 2. Animals
 3. Random Programming Facts
 
@@ -39,3 +39,4 @@ After running this request, refresh the page to GET another random programming f
 - Routers and Route handlers
 - Middleware
 - HTTP Methods
+- JSON
