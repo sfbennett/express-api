@@ -23,12 +23,12 @@ For example, to retrieve the animal with the ID 4, the URL would be: `/api/anima
 ### Get a random fact about programming
 
 - Method: `GET`
-- URL: `/facts`
+- URL: `/facts/random`
 
 ### Get all programming facts
 
 - Method: `GET`
-- URL: `/facts/random`
+- URL: `/facts`
 
 After running this request, refresh the page to GET another random programming fact!
 
