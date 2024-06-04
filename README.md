@@ -25,12 +25,12 @@ For example, to retrieve the animal with the ID 4, the URL would be: `/api/anima
 - Method: `GET`
 - URL: `/facts/random`
 
+After running this request, refresh the page to GET another random programming fact!
+
 ### Get all programming facts
 
 - Method: `GET`
 - URL: `/facts`
-
-After running this request, refresh the page to GET another random programming fact!
 
 ### Technologies used
 
