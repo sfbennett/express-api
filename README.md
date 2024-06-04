@@ -31,3 +31,11 @@ For example, to retrieve the animal with the ID 4, the URL would be: `/api/anima
 - URL: `/facts/random`
 
 After running this request, refresh the page to GET another random programming fact!
+
+### Technologies used
+
+- Node.js
+- Express.js
+- Routers and Route handlers
+- Middleware
+- HTTP Methods
