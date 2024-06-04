@@ -1,9 +1,16 @@
 // Define getAnimalById function and export:
 
-const { animals } = require("./data");
+const { animals, facts } = require("./data");
 
 const getAnimalById = (id) => {
   return animals[id];
 };
 
-module.exports = getAnimalById;
+// Define getRandomFact function and export:
+
+const getRandomFact = () => {
+  const randomIndex = Math.floor(Math.random() * facts.length);
+  return facts[randomIndex];
+};
+
+module.exports = { getAnimalById, getRandomFact };

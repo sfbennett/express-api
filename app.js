@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 const port = 3000;
-const getAnimalById = require("./utils");
+const { getAnimalById, getRandomFact } = require("./utils");
 
 // Import the responses and product data from the data.js file //
 const { responses, animals, facts } = require("./data");
@@ -12,7 +12,7 @@ responsesRouter.get("/", (req, res) => {
   res.json(responses);
 });
 
-// ANIMALS ROUTER //
+// -- ANIMALS ROUTER -- //
 const animalsRouter = express.Router();
 
 // Animals Middleware (to validate the animal ID/that the animal exists in the database)
@@ -36,13 +36,17 @@ animalsRouter.get("/:animalId", (req, res) => {
   res.send(req.animal);
 });
 
-// FACTS ROUTER (generates a random fact each time) //
+// -- FACTS ROUTER (generates a random fact each time) -- //
 const factsRouter = express.Router();
 
-// Get a random fact
+// Get all programming facts
 factsRouter.get("/", (req, res) => {
-  const randomIndex = Math.floor(Math.random() * facts.length);
-  const randomFact = facts[randomIndex];
+  res.json(facts);
+});
+
+// Get a random programming fact
+factsRouter.get("/random", (req, res) => {
+  const randomFact = getRandomFact();
   res.json(randomFact);
 });
 
