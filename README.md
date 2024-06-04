@@ -2,9 +2,9 @@
 
 A simple RESTful API that I created with Express for managing data from three different end points.
 
-1. Hello, world! and Responses (to test the app's initial functionality)
+1. Hello, world! and other responses (to test the app's initial functionality)
 2. Animals
-3. Random Programming Facts (generated with each GET request/page refresh)
+3. Random Programming Facts
 
 ## API Endpoints
 
