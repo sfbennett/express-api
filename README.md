@@ -8,12 +8,12 @@ A simple RESTful API that I created with Express for managing data from three di
 
 ## API Endpoints
 
-Get all animals
+### Get all animals
 
 - URL: `/animals`
 - Method: `GET`
 
-Get a random programming fact
+### Get a random programming fact
 
 - URL: `/facts`
 - Method: `GET`
