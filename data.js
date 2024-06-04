@@ -12,7 +12,7 @@ const animals = [
     name: "Glass Frog",
     diet: ["Crickets", "Moths", "Flies", "Spiders"],
     habitat: "Central and South America",
-    quirk: "Has translucent skin, allowing you to see their internal organs",
+    quirk: "Have translucent skin, allowing you to see their internal organs",
   },
   {
     id: 2,
