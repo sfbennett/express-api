@@ -6,12 +6,16 @@ A simple RESTful API that I created with Express for managing data from three di
 2. Animals
 3. Random Programming Facts
 
+Visit the API [here] (https://express-api-q0sg.onrender.com/).
+
 ## API Endpoints
 
 ### Get all animals
 
 - Method: `GET`
 - URL: `/animals`
+
+For example, to see a full list of animals visit: https://express-api-q0sg.onrender.com/api/animals
 
 ### Get animal by ID
 

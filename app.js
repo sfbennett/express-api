@@ -57,7 +57,9 @@ app.use("/api/facts", factsRouter);
 
 // Basic Route handler
 app.get("/", (req, res) => {
-  res.send("Hello, World! I am working on making an API with Express");
+  res.send(
+    "Hello, World! I have made an API with Express. Test it out to see a list of animals and cool programming facts!"
+  );
 });
 
 // Start Express server and have it listen for HTTP requests
