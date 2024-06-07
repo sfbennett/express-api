@@ -58,7 +58,7 @@ app.use("/api/facts", factsRouter);
 // Basic Route handler
 app.get("/", (req, res) => {
   res.send(
-    "Hello, world! I've made an API using Express. Test it out to see a list of animals and cool programming facts."
+    "Hello, world! I've made an API using Express. Test it out to see a list of animals or cool programming facts."
   );
 });
 
