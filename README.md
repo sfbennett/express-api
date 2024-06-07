@@ -13,7 +13,7 @@ Check out my API deployed on Render [here](https://express-api-q0sg.onrender.com
 ### Get all animals
 
 - Method: `GET`
-- URL: `/animals`
+- URL: `/api/animals`
 
 For example, to see a full list of animals visit: https://express-api-q0sg.onrender.com/api/animals
 
@@ -27,14 +27,19 @@ For example, to retrieve the animal with the ID 4, the URL would be: `/api/anima
 ### Get a random fact about programming
 
 - Method: `GET`
-- URL: `/facts/random`
+- URL: `/api/facts/random`
 
 After running this request, refresh the page to GET another random programming fact!
 
 ### Get all programming facts
 
 - Method: `GET`
-- URL: `/facts`
+- URL: `/api/facts`
+
+### Get all responses
+
+- Method: `GET`
+- URL: `/api/responses`
 
 ### Technologies used
 
