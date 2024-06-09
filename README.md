@@ -41,7 +41,7 @@ After running this request, refresh the page to GET another random programming f
 - Method: `GET`
 - URL: `/api/responses`
 
-### Technologies used
+## Technologies used
 
 - Node.js
 - Express.js
