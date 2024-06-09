@@ -3,7 +3,11 @@
 const responses = [
   { id: 1, message: "Hello, world!" },
   { id: 2, message: "Testing out an Express API" },
-  { id: 3, message: "These are dummy responses" },
+  {
+    id: 3,
+    message:
+      "Check it out to find some cool facts about animals and programming",
+  },
 ];
 
 const animals = [

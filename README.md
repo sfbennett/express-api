@@ -1,9 +1,9 @@
-# Express API
+# Animal x Programming Express API
 
 A simple RESTful API that I created with Express for managing data from three different end points.
 
 1. Hello, World! and other responses (to test the app's initial functionality)
-2. Animals
+2. Animals Facts
 3. Random Programming Facts
 
 Check out my API deployed on Render [here](https://animal-programming-api.onrender.com).
@@ -49,3 +49,4 @@ After running this request, refresh the page to GET another random programming f
 - Middleware
 - HTTP Methods
 - JSON
+- Render for hosting
